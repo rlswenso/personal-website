@@ -1,8 +1,8 @@
 /**
  * Hero text + top nav fade together over this progress range (0–1).
- * Lower `heroFadeEnd` → greeting/activity/nav disappear sooner.
+ * Higher `heroFadeEnd` → greeting/activity/nav stay visible longer.
  */
-export const heroFadeEnd = 0.18;
+export const heroFadeEnd = 0.2;
 
 /**
  * How much scroll progress builds before the hero zone pins (first pixels of scroll).
@@ -11,7 +11,7 @@ export const heroFadeEnd = 0.18;
 export const heroPrePinProgressWeight = 0.45;
 
 export const transitionConfig = {
-  scrollHeightVh: 150,
+  scrollHeightVh: 115,
   scrollHeightVhReduced: 115,
   cameraZStart: 10,
   cameraZEnd: 2.1,
@@ -20,11 +20,11 @@ export const transitionConfig = {
   fovEnd: 42,
   portalSpreadStrength: 9.5,
   portalVoidRadius: 2.8,
-  particleFadeStart: 0.55,
-  particleFadeEnd: 0.95,
+  particleFadeStart: 0.75,
+  particleFadeEnd: 1,
   heroFadeEnd,
-  backgroundFadeStart: 0.62,
-  backgroundFadeEnd: 0.96,
+  backgroundFadeStart: 0.4,
+  backgroundFadeEnd: 0.92,
   scrollBackInfluxStrength: 6.2,
   scrollBackSwirlStrength: 3.2,
   scrollBackTurbulenceBoost: 2.4,

@@ -49,7 +49,7 @@ function HeroScrollZone() {
           />
 
           <div
-            className="relative z-10 flex h-full flex-col px-6 pb-10 pt-24 sm:px-10 sm:pb-12 sm:pt-28"
+            className="relative z-10 flex h-full flex-col px-6 pb-10 pt-16 sm:px-10 sm:pb-14 sm:pt-18"
             style={{
               opacity: heroOpacity,
               transform: `translateY(${transitionProgress * -24}px)`,
