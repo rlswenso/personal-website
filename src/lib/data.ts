@@ -20,13 +20,13 @@ export const homeIntro = {
   greeting: "Hey, I'm Ryder!",
   activityPrefix: "Right now I am ",
   activities: [
-    "watching the world cup",
+    "watching the World Cup",
     "skateboarding",
-    "learning about tech",
+    "reading about tech",
     "producing music",
     "building computers",
     "taking photos",
-    "studying Korean",
+    "learning Korean",
   ],
 };
 
