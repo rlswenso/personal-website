@@ -37,6 +37,11 @@ export const aboutParagraphs = [
 
 export const experiences: Experience[] = [
   {
+    role: "Data Operations",
+    company: "Panels",
+    period: "2026 - Present"
+  },
+  {
     role: "Executive Board",
     company: "Brown Product Management",
     period: "2025 — Present",
