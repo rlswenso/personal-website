@@ -39,7 +39,7 @@ export const experiences: Experience[] = [
   {
     role: "Data Operations",
     company: "Panels",
-    period: "2026 - Present"
+    period: "2026 - Present",
   },
   {
     role: "Executive Board",
